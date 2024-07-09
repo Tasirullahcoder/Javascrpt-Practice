@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var a={
+            fname:"tasir",
+            lname:"ullah",
+            address:"peshawar",
+            uni:"agriculture",
+            array:["ali","khan","jan"],
+            fun:function(name="laalma"){
+                return `hi how are you who looking  this time to  ${name}`
+            
+            },
+            salary:{
+                firstm:200,
+                secondm:300
+            },
+               
+            fullname : function(){
+                return this.fname+" "+this.lname;
+            }
+        }
+        document.write(a.fullname());
+    </script>
+</body>
+</html>
